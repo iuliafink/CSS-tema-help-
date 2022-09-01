@@ -1,0 +1,76 @@
+.nav-link svg {
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+
+:root {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar-nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 60%);
+  height: 100vh;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.navbar {
+  width: 150px;
+}
+
+ul> li { 
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+svg:hover {
+  color: deeppink;
+}
+
+ul { 
+  background: deepskyblue;
+  padding: 1em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1em auto;
+  height: 600px;
+}
+
+li {
+  display: inline-block;
+  background: tomato;
+  padding: .5em; 
+    }
+
+
+.nav-end {
+  align-self: flex-end;
+}
+
+p, h1 {
+ margin-left: 10vw;
+ padding: 10px;
+}
+
+.nav-item:hover {
+  
+}
+
+
+/* visibility: hidden; */
+/* visibility: visible; */
+

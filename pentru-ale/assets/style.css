@@ -1,0 +1,25 @@
+.nav-link svg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+  }
+  
+  
+  :root {
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  svg:hover {
+    color: deeppink;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+  }
